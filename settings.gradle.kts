@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "temperatureconverter-lib"
+rootProject.name = "Temperature_Converter"
 include(":temperatureConverter")
