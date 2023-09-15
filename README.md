@@ -16,3 +16,17 @@ The temperatureconverter library serves as demonstration for a cross-platform (i
 ./gradlew assembleXCFramework
 
 ```
+
+**Android:** Publish the library to your local maven repo.
+
+```bash
+./gradlew publishAndroidDebugPublicationToMavenLocal
+```
+
+Add mavenLocal() to the 'dependencyResolutionManagement' section in your app's `settings.gradle`.
+
+Then add the following line to the dependencies section in your app's `build.gradle`.
+
+```
+implementation("de.naemiluna.temperatureconverter:temperatureConverter-android:0.1.0")
+```
