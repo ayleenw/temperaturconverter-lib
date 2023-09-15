@@ -2,6 +2,14 @@
 
 The temperatureconverter library serves as demonstration for a cross-platform (iOS and Android) library developed with Kotlin.
 
+The following projects use this library:
+**iOS:**  
+[https://github.com/ayleenw/temperatureconverter-ios](https://github.com/ayleenw/temperatureconverter-ios)
+
+**Android:**  
+[https://github.com/ayleenw/temperatureconverter-android](https://github.com/ayleenw/temperatureconverter-ios)
+
+
 ## Requirements
 
 - Android Studio Giraffe 2022.3
@@ -20,7 +28,7 @@ The temperatureconverter library serves as demonstration for a cross-platform (i
 **Android:** Publish the library to your local maven repo.
 
 ```bash
-./gradlew publishAndroidDebugPublicationToMavenLocal
+./gradlew publishAndroidReleasePublicationToMavenLocal
 ```
 
 Add mavenLocal() to the 'dependencyResolutionManagement' section in your app's `settings.gradle`.
